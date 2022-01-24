@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Calibri, sans-serif;
+    background-color: black;
+}
+.buttons-container{
+    width: 200px;
+    height: 200px;
+    background-color: orangered;
+    border-radius: 50%;
+    position: fixed;
+    top: -60px;
+    left: -60px;
+    z-index: 100;
+}
+.buttons-container .buttons{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+
+}
+.buttons button{
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 40px;
+}
+.buttons .close{
+    display: none;
+}
+.container{
+    background-color: white;
+    padding: 50px;
+    transition: all 0.5s linear;
+}
+.show-nav{
+    transform: rotate(-20deg);
+    transform-origin: top left;
+}
+.container .content{
+    width: 1000px;
+    margin: auto;
+}
+.container .content h2{
+    font-size: 40px;
+    color: orangered;
+}
+.container .content p{
+    font-size: 20px;
+    color: grey;
+    margin: 20px 0;
+}
+.container .content img{
+    border-radius: 20px;
+}
+.nav{
+    position: fixed;
+    left: 0;
+    bottom: 40px;
+}
+.nav ul{
+    list-style-type: none;
+}
+.nav ul li{
+    padding: 15px;
+}
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
